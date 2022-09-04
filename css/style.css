@@ -1,0 +1,11 @@
+:root {
+    --main-color: #000000;
+}
+
+body {
+    color: var(--main-color);
+}
+
+li {
+    list-style-type: none;
+}
