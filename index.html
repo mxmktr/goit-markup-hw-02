@@ -4,6 +4,12 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&family=Roboto:wght@400;500;700;900&display=swap"
+            rel="stylesheet"
+        />
         <title>WebStudio - веб-студія - дизайн створення сайтів</title>
         <link rel="stylesheet" href="./css/style.css" type="text/css" />
     </head>
@@ -16,9 +22,10 @@
                     title="Логотип компанії"
                     id="top-logo"
                     lang="en"
-                    >Web<span>Studio</span></a
+                    class="logo"
+                    >Web<span class="logo-upper">Studio</span></a
                 >
-                <ul>
+                <ul class="navigation">
                     <li>
                         <a
                             href="./index.html"
@@ -42,7 +49,7 @@
                     </li>
                 </ul>
             </nav>
-            <ul>
+            <ul class="navigation contact">
                 <li>
                     <a
                         href="mailto:info@devstudio.com"
@@ -63,13 +70,15 @@
         <main>
             <!-- Hero part -->
             <section>
-                <h1>ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-                <button type="button">Замовити послугу</button>
+                <h1 class="hero-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
+                <button type="button" class="hero-button">
+                    Замовити послугу
+                </button>
             </section>
             <!-- What can WebStudio do? Description -->
             <section>
                 <h2 hidden>Опис основних софт-скілів компанії</h2>
-                <ul>
+                <ul class="company-skills">
                     <li>
                         <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
                         <p>
@@ -101,7 +110,7 @@
                 </ul>
             </section>
             <section>
-                <h2>Чим ми займаємося</h2>
+                <h2 class="section-title">Чим ми займаємося</h2>
                 <ul>
                     <li>
                         <img
@@ -131,8 +140,8 @@
             </section>
             <!-- Team description -->
             <section>
-                <h2>Наша команда</h2>
-                <ul>
+                <h2 class="section-title">Наша команда</h2>
+                <ul class="team-portfolio">
                     <li>
                         <img
                             src="./images/img1.jpg"
@@ -178,29 +187,35 @@
         </main>
         <!-- address + contact information -->
         <footer>
-            <a href="#top-logo" title="Логотип компанії" lang="en"
-                >Web<span>Studio</span></a
-            >
-            <address>
-                <ul>
-                    <li>м. Київ, пр-т Лесі Українки, 26</li>
-                    <li>
-                        <a
-                            href="mailto:info@devstudio.com"
-                            title="Контактний ємейл"
-                            lang="en"
-                            >info@devstudio.com</a
-                        >
-                    </li>
-                    <li>
-                        <a
-                            href="tel:+380961111111"
-                            title="Контактний номер телефону"
-                            >+38 (096) 111-11-11</a
-                        >
-                    </li>
-                </ul>
-            </address>
+            <div class="footer-container">
+                <a
+                    href="#top-logo"
+                    title="Логотип компанії"
+                    lang="en"
+                    class="logo"
+                    >Web<span class="logo-bottom">Studio</span></a
+                >
+                <address class="address">
+                    <ul>
+                        <li>м. Київ, пр-т Лесі Українки, 26</li>
+                        <li>
+                            <a
+                                href="mailto:info@devstudio.com"
+                                title="Контактний ємейл"
+                                lang="en"
+                                >info@devstudio.com</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="tel:+380961111111"
+                                title="Контактний номер телефону"
+                                >+38 (096) 111-11-11</a
+                            >
+                        </li>
+                    </ul>
+                </address>
+            </div>
         </footer>
     </body>
 </html>
