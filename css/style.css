@@ -57,7 +57,6 @@ li {
     font-size: 44px;
     line-height: 136%;
     letter-spacing: 0.06em;
-    background-color: #757575;
 }
 
 .hero-button {
@@ -114,7 +113,7 @@ li {
 }
 
 address {
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -124,4 +123,40 @@ address {
 
 address a {
     color: rgba(255, 255, 255, 60%);
+}
+
+.examples-list h2 {
+    color: var(--head-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 200%;
+    letter-spacing: 0.06em;
+}
+
+.examples-list p {
+    font-size: 16px;
+    line-height: 188%;
+    letter-spacing: 0.03em;
+}
+
+.button-filter {
+    background-color: #f5f4fa;
+    border: none;
+    border-radius: 4px;
+    height: 38px;
+    color: var(--head-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 162%;
+    text-align: center;
+}
+.button-filter:hover,
+.button-filter:focus,
+.button-filter:active {
+    background-color: #2196f3;
+    color: #ffffff;
+}
+
+.hero-container {
+    background-color: #2f303a;
 }
