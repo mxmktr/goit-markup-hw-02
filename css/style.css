@@ -70,6 +70,7 @@ li {
     line-height: 188%;
     text-align: center;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .company-skills h3 {
@@ -115,7 +116,6 @@ li {
 address {
     color: #ffffff;
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 171%;
     letter-spacing: 0.03em;
@@ -123,6 +123,11 @@ address {
 
 address a {
     color: rgba(255, 255, 255, 60%);
+}
+
+address a:hover,
+address a:focus {
+    color: #2196f3;
 }
 
 .examples-list h2 {
@@ -149,6 +154,7 @@ address a {
     font-size: 16px;
     line-height: 162%;
     text-align: center;
+    cursor: pointer;
 }
 .button-filter:hover,
 .button-filter:focus,
