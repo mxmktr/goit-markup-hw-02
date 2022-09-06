@@ -58,7 +58,10 @@ li {
 .site-navigation:hover,
 .site-navigation:focus,
 .contact-navigation:focus,
-.contact-navigation:hover,
+.contact-navigation:hover {
+    color: var(--logo-color);
+}
+
 .site-navigation.active {
     color: var(--logo-color);
 }
