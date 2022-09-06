@@ -58,8 +58,9 @@ li {
 .site-navigation:hover,
 .site-navigation:focus,
 .contact-navigation:focus,
-.contact-navigation:hover {
-    color: #2196f3;
+.contact-navigation:hover,
+.site-navigation.active {
+    color: var(--logo-color);
 }
 
 .hero-title {
